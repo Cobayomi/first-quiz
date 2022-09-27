@@ -5,14 +5,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
 
+}
 body{
     background: grey;
 }
 
 .start_btn,
-.options_box{
+.options_box,
+quiz_box{
 
     position:absolute;
     top:50%;
@@ -36,7 +37,7 @@ cursor: pointer;
 .options_box{
     display: none;
     width: 540px;
-    background: #fff;
+    background: #007bff;
     border-radius: 5px;
 }
 
@@ -104,4 +105,10 @@ cursor: pointer;
 .buttons button.quit:hover{
     color: grey;
     background: #007bff;
+}
+
+.quiz_box{
+    width: 550px;
+    background: #007bff;
+    border-radius: 5px;
 }
