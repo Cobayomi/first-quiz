@@ -1,0 +1,107 @@
+/* importing google fonts */
+@import url( https://fonts.googleapis.com/css?family=Poppins)
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: grey;
+}
+
+.start_btn,
+.options_box{
+
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%,);
+}
+
+/*Start Quiz Button Styling*/
+.start btn button{
+font-size: 25px;
+font-weight: 500px;
+color: grey;
+padding: 15px 30px;
+outline: none;
+border: none;
+border-radius: 5px;
+background: #fff;
+cursor: pointer;
+}
+
+.options_box{
+    display: none;
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.options_box .options_title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+
+}.options_box .options_list{
+    padding: 15px 35px;
+
+}
+.options_box .options_list{
+    margin: 5px 0;
+    font-size: 17px;
+
+}
+.options_box .options_list .options span{
+    font-weight: 600;
+    color: grey;
+}
+
+.options_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px solid lightgrey;
+}
+
+.options_box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid lightgrey;
+    background: grey;
+    border-radius: 5px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart{
+    color: grey;
+    background: #007bff;
+}
+
+.buttons button.restart:hover{
+    background: #007bff;
+
+}
+
+
+.buttons button.quit{
+    color: grey;
+}
+.buttons button.quit:hover{
+    color: grey;
+    background: #007bff;
+}
